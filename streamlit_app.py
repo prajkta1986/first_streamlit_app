@@ -76,9 +76,9 @@ if streamlit.button('Get Fruit Load List'):
 
 
 
-streamlit.header("The fruit load list contains:")
+#streamlit.header("The fruit load list contains:")
 
-streamlit.dataframe(my_data_rows)
+#streamlit.dataframe(my_data_rows)
 
 #Allow the end user to add fruit to the list
 def inser_row_snowflake(new_fruit):
